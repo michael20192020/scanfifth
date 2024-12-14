@@ -4,13 +4,10 @@ import android.Manifest
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import android.view.SurfaceView
-import android.view.View
 import android.widget.Spinner
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageCapture
@@ -20,8 +17,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-//import androidx.compose.foundation.layout.FlowColumnScopeInstance.align
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -30,7 +25,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -51,12 +45,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.constraintlayout.compose.ConstraintLayout
-import androidx.constraintlayout.compose.Dimension
-import androidx.core.content.ContextCompat
-import android.view.ViewOverlay
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.material3.HorizontalDivider
 
-import androidx.compose.ui.zIndex
 
 import com.hansoft.scanfifth.ui.theme.ScanFifthTheme
 
@@ -89,7 +80,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
         }
     }
     val context = LocalContext.current
-    val cameraExecutor = remember { ContextCompat.getMainExecutor(context) }
+    //val cameraExecutor = remember { ContextCompat.getMainExecutor(context) }
     LaunchedEffect(Unit) {
         cameraPermissionLauncher.launch(Manifest.permission.CAMERA)
     }
@@ -99,7 +90,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
     val imageCapture: ImageCapture = remember { ImageCapture.Builder().build() }
 
     val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
-    var preview = androidx.camera.core.Preview.Builder().build().also {
+    val preview = androidx.camera.core.Preview.Builder().build().also {
         it.setSurfaceProvider(previewView.surfaceProvider)
     }
     ConstraintLayout(
@@ -107,7 +98,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
             .fillMaxSize()
             //.background(color = Color.White)
     ) {
-        val (viewfinder, overlay, middle, srcLang, srcTextScrollView, divider, targetLangSelector, translatedTextScrollView, divider2, imageView, progressBar, progressText) = createRefs()
+        val (viewfinder, srcLang, srcTextScrollView, divider, targetLangSelector, translatedTextScrollView, divider2, imageView, progressBar, progressText) = createRefs()
         val backgroundColor = MaterialTheme.colorScheme.background
         Column(
             modifier = modifier,
@@ -145,7 +136,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
                             // factory = { context -> PreviewView(context).apply {
                             //  setBackgroundColor(android.graphics.Color.TRANSPARENT) // Explicitly set transparency
                             // } },
-                            factory = { context ->
+                            factory = {
                                 previewView.apply {
                                     //  setBackgroundColor(android.graphics.Color.TRANSPARENT) // Explicitly set transparency
                                 }
@@ -204,6 +195,8 @@ fun MainScreen(modifier: Modifier = Modifier) {
 
 
             // Source Language TextVie
+            Text(text = people.name + " " + people.age)
+            Text(text = chat.sender + " " + chat.message)
 
             Text(
                 text = "source lang",
@@ -238,15 +231,14 @@ fun MainScreen(modifier: Modifier = Modifier) {
             }
 
             // Divider
-            Divider(
-                modifier = Modifier
-                    .constrainAs(divider) {
-                        top.linkTo(srcTextScrollView.bottom)
-                        start.linkTo(parent.start)
-                        end.linkTo(parent.end)
-                        bottom.linkTo(targetLangSelector.top)
-                    }
-            )
+        HorizontalDivider(modifier = Modifier
+            .constrainAs(divider) {
+                top.linkTo(srcTextScrollView.bottom)
+                start.linkTo(parent.start)
+                end.linkTo(parent.end)
+                bottom.linkTo(targetLangSelector.top)
+            }
+        )
 
             // Target Language Selector (Spinner equivalent)
             AndroidView(
@@ -278,15 +270,14 @@ fun MainScreen(modifier: Modifier = Modifier) {
             }
 
             // Divider 2
-            Divider(
-                modifier = Modifier
-                    .constrainAs(divider2) {
-                        top.linkTo(translatedTextScrollView.bottom)
-                        start.linkTo(parent.start)
-                        end.linkTo(parent.end)
-                        bottom.linkTo(imageView.top)
-                    }
-            )
+        HorizontalDivider(modifier = Modifier
+            .constrainAs(divider2) {
+                top.linkTo(translatedTextScrollView.bottom)
+                start.linkTo(parent.start)
+                end.linkTo(parent.end)
+                bottom.linkTo(imageView.top)
+            }
+        )
 
             // ImageView
             Image(
@@ -302,7 +293,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
                     }
             )
 
-            /*
+
 
         // Progress Bar
         CircularProgressIndicator(
@@ -316,7 +307,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
             //visibility = ProgressIndicatorVisibility.INVISIBLE
         )
 
-         */
+
 
             // Progress Text
             Text(
