@@ -196,7 +196,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
 
 
 
-            /*
+
 
             // Middle Guideline
             val guideline = createGuidelineFromTop(0.5f)
@@ -329,7 +329,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
                 }
             )
 
-             */
+
 
     }
 }
