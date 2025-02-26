@@ -335,6 +335,10 @@ fun Greeting(modifier: Modifier = Modifier) {
             text = "Hello",
             modifier = modifier
         )
+        Text(
+            text = "Hi",
+            modifier = modifier
+        )
         MainScreen(modifier = modifier)
     }
 
