@@ -163,7 +163,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
                             .background(color = backgroundColor) // Semi-transparent overlay
                     ) {
                         Text(
-                            text = "good morning",
+                            text = "good afternoon",
                             color = Color.White,
                             modifier = Modifier.align(Alignment.Center)
                         )
