@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.hansoft.scanfifth.app-mergeDebugResources-55:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Michael\\.gradle\\caches\\transforms-4\\eaa4e3f2cbb23ade3833b57c2c4ac991\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

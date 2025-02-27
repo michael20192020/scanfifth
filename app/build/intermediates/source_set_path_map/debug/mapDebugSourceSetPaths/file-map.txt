@@ -1,0 +1,59 @@
+com.hansoft.scanfifth.app-material-ripple-release-0 C:\Users\Michael\.gradle\caches\transforms-4\0bc350e75686a0f4a45478406fa2978e\transformed\material-ripple-release\res
+com.hansoft.scanfifth.app-camera-extensions-1.0.0-alpha30-1 C:\Users\Michael\.gradle\caches\transforms-4\0bd91475d0c0a495830550b2906777f4\transformed\camera-extensions-1.0.0-alpha30\res
+com.hansoft.scanfifth.app-camera-lifecycle-1.1.0-2 C:\Users\Michael\.gradle\caches\transforms-4\0d7345189a237943115b36069747d2b7\transformed\camera-lifecycle-1.1.0\res
+com.hansoft.scanfifth.app-ui-text-release-3 C:\Users\Michael\.gradle\caches\transforms-4\1150bb78b7fe5b34346d1cb1600745ac\transformed\ui-text-release\res
+com.hansoft.scanfifth.app-graphics-path-1.0.1-4 C:\Users\Michael\.gradle\caches\transforms-4\16af2808fc06b7957733302fc916f915\transformed\graphics-path-1.0.1\res
+com.hansoft.scanfifth.app-lifecycle-process-2.8.7-5 C:\Users\Michael\.gradle\caches\transforms-4\19ca44fe512ca21a9e57b8e2dbac0deb\transformed\lifecycle-process-2.8.7\res
+com.hansoft.scanfifth.app-runtime-release-6 C:\Users\Michael\.gradle\caches\transforms-4\1e6c0e9545fabfb503dff3cb5d00cbec\transformed\runtime-release\res
+com.hansoft.scanfifth.app-ui-graphics-release-7 C:\Users\Michael\.gradle\caches\transforms-4\21d00e2f885195dee596cae435403d2c\transformed\ui-graphics-release\res
+com.hansoft.scanfifth.app-material-release-8 C:\Users\Michael\.gradle\caches\transforms-4\23557cc5bf64f4e09330986718a17ef1\transformed\material-release\res
+com.hansoft.scanfifth.app-lifecycle-runtime-release-9 C:\Users\Michael\.gradle\caches\transforms-4\23b0fe46eea17a662ff113c15083bfdd\transformed\lifecycle-runtime-release\res
+com.hansoft.scanfifth.app-emoji2-1.3.0-10 C:\Users\Michael\.gradle\caches\transforms-4\3455da6b57701077722c4e76c1e2de7c\transformed\emoji2-1.3.0\res
+com.hansoft.scanfifth.app-lifecycle-livedata-core-2.8.7-11 C:\Users\Michael\.gradle\caches\transforms-4\3bfdf832f2f38cbeba02ada35ee748d0\transformed\lifecycle-livedata-core-2.8.7\res
+com.hansoft.scanfifth.app-ui-geometry-release-12 C:\Users\Michael\.gradle\caches\transforms-4\3cfe6327a2927a4c574c30c6c94ead35\transformed\ui-geometry-release\res
+com.hansoft.scanfifth.app-lifecycle-runtime-ktx-release-13 C:\Users\Michael\.gradle\caches\transforms-4\3f8a94c2fc6f0eb420cc54ea8cb9e579\transformed\lifecycle-runtime-ktx-release\res
+com.hansoft.scanfifth.app-lifecycle-viewmodel-release-14 C:\Users\Michael\.gradle\caches\transforms-4\439a932b80a8aa65d6eb0acac41959f3\transformed\lifecycle-viewmodel-release\res
+com.hansoft.scanfifth.app-appcompat-1.1.0-15 C:\Users\Michael\.gradle\caches\transforms-4\479a00da186ac6a622fc6df529e2c6d2\transformed\appcompat-1.1.0\res
+com.hansoft.scanfifth.app-ui-release-16 C:\Users\Michael\.gradle\caches\transforms-4\4d8752dcb2a2842e83071fb6ead5a701\transformed\ui-release\res
+com.hansoft.scanfifth.app-profileinstaller-1.3.1-17 C:\Users\Michael\.gradle\caches\transforms-4\577c3f92eace77bfe03848ea228b33ef\transformed\profileinstaller-1.3.1\res
+com.hansoft.scanfifth.app-foundation-release-18 C:\Users\Michael\.gradle\caches\transforms-4\5ba26a4908a2c6f7525ae6111e3c6e8c\transformed\foundation-release\res
+com.hansoft.scanfifth.app-lifecycle-livedata-core-ktx-2.8.7-19 C:\Users\Michael\.gradle\caches\transforms-4\62d58f1db80b536882e499da58aca606\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.hansoft.scanfifth.app-annotation-experimental-1.4.1-20 C:\Users\Michael\.gradle\caches\transforms-4\65a67ae8911c401b22c226722c582540\transformed\annotation-experimental-1.4.1\res
+com.hansoft.scanfifth.app-savedstate-1.2.1-21 C:\Users\Michael\.gradle\caches\transforms-4\6b929996af9ef8fef06147fa469c5815\transformed\savedstate-1.2.1\res
+com.hansoft.scanfifth.app-core-1.13.1-22 C:\Users\Michael\.gradle\caches\transforms-4\6beb31f06af296bb8b950bab4ce4d355\transformed\core-1.13.1\res
+com.hansoft.scanfifth.app-savedstate-ktx-1.2.1-23 C:\Users\Michael\.gradle\caches\transforms-4\716430099d867d29c0135289c6049307\transformed\savedstate-ktx-1.2.1\res
+com.hansoft.scanfifth.app-camera-view-1.0.0-alpha30-24 C:\Users\Michael\.gradle\caches\transforms-4\72375d60d2fc8ca360a640e3d2ae18ae\transformed\camera-view-1.0.0-alpha30\res
+com.hansoft.scanfifth.app-camera-core-1.1.0-25 C:\Users\Michael\.gradle\caches\transforms-4\784a2978211947e4bf69c5bac4427285\transformed\camera-core-1.1.0\res
+com.hansoft.scanfifth.app-startup-runtime-1.1.1-26 C:\Users\Michael\.gradle\caches\transforms-4\8821fe4fb5c41e8d94c68a2e8bd8cbeb\transformed\startup-runtime-1.1.1\res
+com.hansoft.scanfifth.app-lifecycle-viewmodel-ktx-2.8.7-27 C:\Users\Michael\.gradle\caches\transforms-4\888cc029a45f6bd0e6c2d3bdf5e3c4f0\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.hansoft.scanfifth.app-activity-ktx-1.9.3-28 C:\Users\Michael\.gradle\caches\transforms-4\8b5055c7bdaaf1c41a1007dc18b2debb\transformed\activity-ktx-1.9.3\res
+com.hansoft.scanfifth.app-camera-camera2-1.1.0-29 C:\Users\Michael\.gradle\caches\transforms-4\8f373cf38e4b88847073e73b3779d3fa\transformed\camera-camera2-1.1.0\res
+com.hansoft.scanfifth.app-activity-compose-1.9.3-30 C:\Users\Michael\.gradle\caches\transforms-4\94c2399784b766b5282422697537b6ac\transformed\activity-compose-1.9.3\res
+com.hansoft.scanfifth.app-ui-test-manifest-1.7.0-31 C:\Users\Michael\.gradle\caches\transforms-4\96925da32238628274475294a09e597f\transformed\ui-test-manifest-1.7.0\res
+com.hansoft.scanfifth.app-ui-unit-release-32 C:\Users\Michael\.gradle\caches\transforms-4\9b8bdce2d1d18b67e4adcbdde45a68bb\transformed\ui-unit-release\res
+com.hansoft.scanfifth.app-ui-tooling-data-release-33 C:\Users\Michael\.gradle\caches\transforms-4\9fcb90b2bc4c13e4ce9dae472ca30037\transformed\ui-tooling-data-release\res
+com.hansoft.scanfifth.app-constraintlayout-compose-release-34 C:\Users\Michael\.gradle\caches\transforms-4\a8309a3e7e1925afad2f016e1a1920bf\transformed\constraintlayout-compose-release\res
+com.hansoft.scanfifth.app-lifecycle-runtime-compose-release-35 C:\Users\Michael\.gradle\caches\transforms-4\b6d0f9ed7db89c6aed4c786b5adb2fa4\transformed\lifecycle-runtime-compose-release\res
+com.hansoft.scanfifth.app-core-runtime-2.2.0-36 C:\Users\Michael\.gradle\caches\transforms-4\bac40ff87fb0e0208959bc9b42fda7d9\transformed\core-runtime-2.2.0\res
+com.hansoft.scanfifth.app-ui-tooling-preview-release-37 C:\Users\Michael\.gradle\caches\transforms-4\bd0b35d952eea82fca6da918318c88f2\transformed\ui-tooling-preview-release\res
+com.hansoft.scanfifth.app-lifecycle-livedata-2.8.7-38 C:\Users\Michael\.gradle\caches\transforms-4\c2818414367df085624b351eee686ed3\transformed\lifecycle-livedata-2.8.7\res
+com.hansoft.scanfifth.app-ui-tooling-release-39 C:\Users\Michael\.gradle\caches\transforms-4\c51a5881f0e67091536686434cf47e36\transformed\ui-tooling-release\res
+com.hansoft.scanfifth.app-animation-core-release-40 C:\Users\Michael\.gradle\caches\transforms-4\c7824a159e7de5e056fc5cd8731537f3\transformed\animation-core-release\res
+com.hansoft.scanfifth.app-ui-util-release-41 C:\Users\Michael\.gradle\caches\transforms-4\d132edac98a288482a90060dfa8f4c66\transformed\ui-util-release\res
+com.hansoft.scanfifth.app-lifecycle-viewmodel-savedstate-2.8.7-42 C:\Users\Michael\.gradle\caches\transforms-4\d2149393d532d9410b464f598f62ea8e\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.hansoft.scanfifth.app-core-ktx-1.13.1-43 C:\Users\Michael\.gradle\caches\transforms-4\d7dfc76d0df9a3b23c08a6386a03f291\transformed\core-ktx-1.13.1\res
+com.hansoft.scanfifth.app-appcompat-resources-1.4.1-44 C:\Users\Michael\.gradle\caches\transforms-4\ddba11b73a054f51873b79fc684f268c\transformed\appcompat-resources-1.4.1\res
+com.hansoft.scanfifth.app-runtime-saveable-release-45 C:\Users\Michael\.gradle\caches\transforms-4\e21c9480f7c52d60c35dfc6936e077d0\transformed\runtime-saveable-release\res
+com.hansoft.scanfifth.app-material3-release-46 C:\Users\Michael\.gradle\caches\transforms-4\eaa4e3f2cbb23ade3833b57c2c4ac991\transformed\material3-release\res
+com.hansoft.scanfifth.app-activity-1.9.3-47 C:\Users\Michael\.gradle\caches\transforms-4\ed7665b2e30b944f33b4c832d0371bdb\transformed\activity-1.9.3\res
+com.hansoft.scanfifth.app-animation-release-48 C:\Users\Michael\.gradle\caches\transforms-4\f3bc5101894f61c1a2aab5eca19dc6b3\transformed\animation-release\res
+com.hansoft.scanfifth.app-customview-poolingcontainer-1.0.0-49 C:\Users\Michael\.gradle\caches\transforms-4\f44f6d5790ca7c9103a58ed554937ef7\transformed\customview-poolingcontainer-1.0.0\res
+com.hansoft.scanfifth.app-foundation-layout-release-50 C:\Users\Michael\.gradle\caches\transforms-4\f796c39c2adeda0a453309683087fc8d\transformed\foundation-layout-release\res
+com.hansoft.scanfifth.app-coil-base-2.1.0-51 C:\Users\Michael\.gradle\caches\transforms-4\f91a61a25b972be16d76d2cd40a9f3a3\transformed\coil-base-2.1.0\res
+com.hansoft.scanfifth.app-material-icons-core-release-52 C:\Users\Michael\.gradle\caches\transforms-4\ffd8b7d984f25fb2105b0a61c910910f\transformed\material-icons-core-release\res
+com.hansoft.scanfifth.app-resValues-53 D:\android practice\jetpack\ScanFifth\app\build\generated\res\resValues\debug
+com.hansoft.scanfifth.app-packageDebugResources-54 D:\android practice\jetpack\ScanFifth\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.hansoft.scanfifth.app-packageDebugResources-55 D:\android practice\jetpack\ScanFifth\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.hansoft.scanfifth.app-debug-56 D:\android practice\jetpack\ScanFifth\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.hansoft.scanfifth.app-debug-57 D:\android practice\jetpack\ScanFifth\app\src\debug\res
+com.hansoft.scanfifth.app-main-58 D:\android practice\jetpack\ScanFifth\app\src\main\res
